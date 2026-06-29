@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f54b21;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background: #923e1d;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 3px solid #f54b21;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f54b21;
+}
+
+
+
+main {
+    width: 70%;
+    margin: 15px auto;
+    background: white;
+    padding: 50px;
+    border: 3px solid rgb(252, 52, 52);
+    border-radius: 13px;
+}
+
+section {
+    padding: 5px;
+}
+
+label {
+
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    background: #f54b21;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+
+}
+
+input[type=submit]:hover {
+    background: #923e1d;
+}
+
+footer {
+    background: #f54b21;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

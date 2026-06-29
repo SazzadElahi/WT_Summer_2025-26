@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Service Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Service Portal</h1>
+        <p>Submit your university service requests online.</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Available Services</h2>
+            <p>
+                Students can request Transcript, ID Card,
+                Bonafide Certificate, and General Inquiry
+                through this portal.
+            </p>
+        </section>
+
+        <section>
+            <h2>Service Request Form</h2>
+
+            <form>
+
+                <label>Student Name</label>
+                <input type="text">
+
+                <label>Student ID</label>
+                <input type="text">
+
+                <label>Email</label>
+                <input type="email">
+
+                <label>Service Type</label>
+
+                <select>
+                    <option>Transcript</option>
+                    <option>ID Card</option>
+                    <option>General Inquiry</option>
+                </select>
+
+                <label>Urgency Level</label>
+                <input type="radio" name="urgency"> Low
+                <input type="radio" name="urgency"> Medium
+                <input type="radio" name="urgency"> High
+                <br><br>
+
+                <label>Additional Details</label>
+                <textarea rows="4"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p> 2026 Student Service Portal. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
