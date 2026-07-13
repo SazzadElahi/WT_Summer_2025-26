@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2>My Portfolio</h2>
+    <button id="themeBtn" onclick="toggleTheme()">Dark / Light Mode</button>
+  </header>
+
+  <section id="hero">
+    <p id="greeting">Hello!</p>
+    <p id="clock">00:00:00</p>
+    <h1>Hi, I'm MD Sazzad Elahi</h1>
+    <p>I am a beginner web developer learning HTML, CSS and JavaScript.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I like building simple websites and small projects to practice my
+      coding skills. This page has two parts: a short portfolio about me,
+      and a contact form with validation.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A simple to-do list app made with JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>A calculator built using HTML, CSS and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 3</h3>
+        <p>This portfolio website you are looking at right now!</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+
+      <label for="name">Name</label>
+      <input type="text" id="name">
+      <p class="error" id="nameError"></p>
+
+      <label for="email">Email</label>
+      <input type="text" id="email">
+      <p class="error" id="emailError"></p>
+
+      <label for="phone">Phone Number</label>
+      <input type="text" id="phone">
+      <p class="error" id="phoneError"></p>
+
+      <label for="password">Password</label>
+      <input type="password" id="password">
+      <p class="error" id="passwordError"></p>
+
+      <label for="age">Age</label>
+      <input type="text" id="age">
+      <p class="error" id="ageError"></p>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4"></textarea>
+      <p class="error" id="messageError"></p>
+
+      <button type="submit">Submit</button>
+    </form>
+
+   
+    <div id="successMessage" style="display:none;">
+      <h3>Registration Successful!</h3>
+      <p>Name: <span id="outName"></span></p>
+      <p>Email: <span id="outEmail"></span></p>
+      <p>Phone: <span id="outPhone"></span></p>
+      <p>Age: <span id="outAge"></span></p>
+      <p>Message: <span id="outMessage"></span></p>
+      <p>Thank you for registering successfully.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Made with HTML, CSS and JavaScript.</p>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
